@@ -1,2 +1,0 @@
-# Proyek UTS PTI Lab
- 

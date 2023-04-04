@@ -1,0 +1,103 @@
+body{
+    background-image: linear-gradient(to right, rgb(143, 201, 247) 0%, #ffc9ef 51%, rgb(255, 189,251)100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+#transparan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:95%;
+    height:  34em;
+    background:rgb(225, 192, 203, 0.6);
+    border-radius: 10px;
+    margin: 30px;
+}
+
+#logo{
+    width:50px;
+    height:50px;
+}
+
+#logo img{
+    width:100px;
+    height: 100px;
+}
+ul#nav{
+    margin:0;
+    padding:0;
+}
+
+ul#nav li{
+    list-style:none;
+    display:inline-block;
+    margin-right:20px;
+}
+
+ul#nav li a{
+    text-decoration:none;
+    padding:10px 0;
+    color:black;
+    font-weight:bold;
+}
+
+#kelompok{
+    display: flex;
+    justify-content: space-between;
+}
+
+#anggota1{
+    text-align: center;
+    width: 380px;
+    background:pink;
+    border-radius: 10px;
+    padding: 28px;
+    margin:10px;
+}
+
+#anggota1 img{
+    width:150px;
+}
+
+#anggota2{
+    text-align: center;
+    width: 380px;
+    background: #4b3619;
+    border-radius: 10px;
+    padding: 28px;
+    margin:10px;
+}
+
+#anggota2 img{
+    width:150px;
+}
+
+#anggota3{
+    text-align: center;
+    width: 380px;
+    background: purple;
+    border-radius: 10px;
+    padding: 28px;
+    margin:10px;
+}
+
+#anggota3 img{
+    width:100px;
+}
+
+#anggota4{
+    text-align: center;
+    width: 380px;
+    background:gold;
+    border-radius: 10px;
+    padding: 28px;
+    margin:10px;
+}
+
+#anggota4 img{
+    width:100px;
+}

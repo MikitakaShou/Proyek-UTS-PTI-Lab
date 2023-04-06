@@ -1,0 +1,151 @@
+body{
+    background-image: url(asset/kota1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+#transparan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:95%;
+    height:  34em;
+    background:rgba(100, 149, 237, 0.5);
+    border-radius: 10px;
+    margin: 30px;
+}
+
+#logo{
+    height:50px;
+}
+
+#logo img{
+    width:100px;
+    height: 100px;
+}
+ul#nav{
+    margin:20px;
+    padding:0;
+}
+
+ul#nav li{
+    list-style:none;
+    display:inline-block;
+    margin-right:20px;
+}
+
+ul#nav li a{
+    text-decoration:none;
+    padding:10px 0;
+    color:cornflowerblue;
+    font-weight:bold;
+    font-family:'Segoe UI',sans-serif;
+}
+
+ul#nav li a:hover{
+    color:cornflowerblue;
+    border-bottom: 3px solid cornflowerblue;
+}
+
+#kelompok{
+    display: flex;
+    justify-content: space-between;
+}
+
+#anggota1{
+    text-align: center;
+    width: 380px;
+    background:pink;
+    border-radius: 10px;
+    padding: 28px;
+    margin:10px;
+}
+
+#anggota1 img{
+    width:150px;
+}
+
+#anggota2{
+    text-align: center;
+    width: 380px;
+    background: #4b3619;
+    border-radius: 10px;
+    padding: 28px;
+    margin:10px;
+}
+
+#anggota2 img{
+    width:150px;
+}
+
+#anggota3{
+    text-align: center;
+    width: 380px;
+    background: purple;
+    border-radius: 10px;
+    padding: 28px;
+    margin:10px;
+}
+
+#anggota3 img{
+    width:100px;
+}
+
+#anggota4{
+    text-align: center;
+    width: 380px;
+    background:gold;
+    border-radius: 10px;
+    padding: 28px;
+    margin:10px;
+}
+
+#anggota4 img{
+    width:100px;
+}
+
+#button{
+    margin:35px;
+    display:flex;
+    justify-content: space-between;
+    width:320px;
+    height: 50px;
+}
+
+#button1{
+    margin:10px;
+}
+
+#button2{
+    margin:10px;
+}
+
+#button3{
+    margin:10px;
+}
+
+#tahu img{
+    width: 300px;
+    height:300px;
+}
+
+#money{
+    margin-left: 700px;
+    text-align: left;
+    font-family:'Segoe UI',sans-serif;
+}
+
+#money p img{
+    width:50px;
+    height:50px;
+}
+
+#auto{
+    display:flex;
+    justify-content:space-between;
+    width:250px;
+    height: 40px;
+}
